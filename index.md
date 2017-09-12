@@ -6,8 +6,8 @@ This guide is a simple walk through on how to passthrough a Nvidia GPU to a Wind
 ## Hardware and OS
 * Intel i7-5820K
 * Nvidia GTX 1070 ZOTAC
-* X99 Chipset Mobo
-* Primary GPU Radeon
+* X99 Chipset Mobo MSI X99S SLI Plus LGA 2011-v3
+* Primary GPU MSI Radeon HD 5450
 * Ubuntu 16.04 Kernel 4.13
 
 Make sure that the GPU you want to passthrough is not the primary GPU. In most cases this requires putting the GPU not in Slot 1 while in other cases you can edit this in the BIOS.
